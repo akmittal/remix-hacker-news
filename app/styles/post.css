@@ -1,0 +1,8 @@
+.comment{
+    padding-left: 10px;
+
+}
+.meta{
+    display: flex;
+    gap: 5px;
+}

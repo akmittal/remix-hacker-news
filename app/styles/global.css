@@ -1,0 +1,37 @@
+:focus:not(:focus-visible) {
+  outline: none;
+}
+:root {
+  --color-primary: #00bcd4;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: calc(100vh - 180px);
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #474747;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.footer a{
+  color: #fff;
+  text-decoration: none;
+}
+.dim {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
+}
+a {
+  color: #055964;
+}

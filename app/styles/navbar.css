@@ -1,0 +1,30 @@
+.main {
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.main .logo a {
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+
+  font-weight: 200;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+}
+.links li {
+  display: inline-block;
+  padding: 10px;
+}
+.links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+}
